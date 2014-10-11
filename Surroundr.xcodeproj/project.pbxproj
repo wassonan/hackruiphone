@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		562F290C19E9BFE4005CCDD5 /* qwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 562F290B19E9BFE4005CCDD5 /* qwe.swift */; };
 		568BE48B19E9B70D00B72753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE48A19E9B70D00B72753 /* AppDelegate.swift */; };
 		568BE48D19E9B70D00B72753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE48C19E9B70D00B72753 /* ViewController.swift */; };
 		568BE49019E9B70D00B72753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568BE48E19E9B70D00B72753 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		562F290B19E9BFE4005CCDD5 /* qwe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = qwe.swift; sourceTree = "<group>"; };
 		568BE48519E9B70D00B72753 /* Surroundr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surroundr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568BE48919E9B70D00B72753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568BE48A19E9B70D00B72753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				568BE49119E9B70D00B72753 /* Images.xcassets */,
 				568BE49319E9B70D00B72753 /* LaunchScreen.xib */,
 				568BE48819E9B70D00B72753 /* Supporting Files */,
+				562F290B19E9BFE4005CCDD5 /* qwe.swift */,
 			);
 			path = Surroundr;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				568BE48D19E9B70D00B72753 /* ViewController.swift in Sources */,
 				568BE48B19E9B70D00B72753 /* AppDelegate.swift in Sources */,
+				562F290C19E9BFE4005CCDD5 /* qwe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -405,6 +409,7 @@
 				568BE4A619E9B70D00B72753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		568BE4A719E9B70D00B72753 /* Build configuration list for PBXNativeTarget "SurroundrTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +418,7 @@
 				568BE4A919E9B70D00B72753 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
