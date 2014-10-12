@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		562F290F19E9F309005CCDD5 /* Soc.m in Sources */ = {isa = PBXBuildFile; fileRef = 562F290E19E9F309005CCDD5 /* Soc.m */; };
 		568BE48B19E9B70D00B72753 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE48A19E9B70D00B72753 /* AppDelegate.swift */; };
 		568BE48D19E9B70D00B72753 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568BE48C19E9B70D00B72753 /* ViewController.swift */; };
 		568BE49019E9B70D00B72753 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 568BE48E19E9B70D00B72753 /* Main.storyboard */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		562F290D19E9F309005CCDD5 /* Surroundr-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Surroundr-Bridging-Header.h"; sourceTree = "<group>"; };
+		562F290E19E9F309005CCDD5 /* Soc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Soc.m; sourceTree = "<group>"; };
 		568BE48519E9B70D00B72753 /* Surroundr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Surroundr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568BE48919E9B70D00B72753 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568BE48A19E9B70D00B72753 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,10 +82,12 @@
 			children = (
 				568BE48A19E9B70D00B72753 /* AppDelegate.swift */,
 				568BE48C19E9B70D00B72753 /* ViewController.swift */,
+				562F290E19E9F309005CCDD5 /* Soc.m */,
 				568BE48E19E9B70D00B72753 /* Main.storyboard */,
 				568BE49119E9B70D00B72753 /* Images.xcassets */,
 				568BE49319E9B70D00B72753 /* LaunchScreen.xib */,
 				568BE48819E9B70D00B72753 /* Supporting Files */,
+				562F290D19E9F309005CCDD5 /* Surroundr-Bridging-Header.h */,
 			);
 			path = Surroundr;
 			sourceTree = "<group>";
@@ -212,6 +217,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				562F290F19E9F309005CCDD5 /* Soc.m in Sources */,
 				568BE48D19E9B70D00B72753 /* ViewController.swift in Sources */,
 				568BE48B19E9B70D00B72753 /* AppDelegate.swift in Sources */,
 			);
@@ -336,9 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Surroundr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Surroundr/Surroundr-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -346,9 +356,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = Surroundr/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Surroundr/Surroundr-Bridging-Header.h";
 			};
 			name = Release;
 		};
